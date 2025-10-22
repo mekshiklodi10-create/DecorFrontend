@@ -6,11 +6,11 @@ function Services() {
   const navigate = useNavigate(); // Inicializo navigate
 
   const services = [
-    { title: "Ditëlindje", image: "/birthday.jpeg", path: "/ditelindje" },
+    { title: "Ditëlindje", image: "/ditelindje.jpeg", path: "/ditelindje" },
     { title: "Dasma", image: "/wedding.jpeg", path: "/dasma" },
-    { title: "Fejesa", image: "/wedding.jpeg", path: "/fejesa" },
-    { title: "Propozime", image: "/wedding.jpeg", path: "/propozime" },
-    { title: "Gender Reveal", image: "/wedding.jpeg", path: "/gender-reveal" },
+    { title: "Fejesa", image: "/fejese.jpeg", path: "/fejesa" },
+    { title: "Propozime", image: "/propozim.jpeg", path: "/propozime" },
+    { title: "Gender Reveal", image: "/geender-reveal.jpeg", path: "/gender-reveal" },
     { title: "Inagurime", image: "/other.jpeg", path: "/inagurime" },
   ];
 

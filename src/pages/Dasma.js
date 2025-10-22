@@ -3,19 +3,19 @@ import React from 'react';
 const dasmaModels = [
   {
     title: "Model Klasik",
-    image: "/header.jpeg", // ndodhet direkt në public/
+    image: "/header.jpeg", 
     price: "€1200",
     description: "Dekor i thjeshtë dhe elegant me ngjyrat tradicionale të dasmës."
   },
   {
     title: "Model Modern",
-    image: "/birthday.jpeg", // ndodhet direkt në public/
+    image: "/birthday.jpeg", 
     price: "€1800",
     description: "Dekor modern me ndriçim LED, lule të freskëta dhe dizajn bashkëkohor."
   },
   {
     title: "Model në Natyrë",
-    image: "/natyre.jpg", // ndodhet direkt në public/
+    image: "/natyre.jpg", 
     price: "€2000",
     description: "Dasmë e organizuar në natyrë, me ambient romantik dhe stil boho."
   }
