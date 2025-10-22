@@ -1,17 +1,17 @@
 import React from "react";
 import Card from "./Card";
-import { useNavigate } from "react-router-dom";  // Importo useNavigate
+import { useNavigate } from "react-router-dom";  
 
 function Services() {
-  const navigate = useNavigate(); // Inicializo navigate
+  const navigate = useNavigate(); 
 
   const services = [
     { title: "Ditëlindje", image: "/ditelindje.jpeg", path: "/ditelindje" },
     { title: "Dasma", image: "/wedding.jpeg", path: "/dasma" },
     { title: "Fejesa", image: "/fejese.jpeg", path: "/fejesa" },
     { title: "Propozime", image: "/propozim.jpeg", path: "/propozime" },
-    { title: "Gender Reveal", image: "/geender-reveal.jpeg", path: "/gender-reveal" },
-    { title: "Inagurime", image: "/other.jpeg", path: "/inagurime" },
+    { title: "Gender Reveal", image: "/gender-reveal.jpeg", path: "/gender-reveal" },
+    { title: "Inagurime", image: "/inagurim.jpeg", path: "/inagurime" },
   ];
 
   return (
@@ -22,7 +22,7 @@ function Services() {
           <div key={title} className="border rounded shadow p-4 flex flex-col">
             <Card image={image} title={title} />
             <button
-              onClick={() => navigate(path)}  // Përdor navigate këtu
+              onClick={() => navigate(path)}  
               className="mt-auto bg-rose-400 text-white py-2 rounded hover:bg-rose-700"
             >
               Shiko më shumë
